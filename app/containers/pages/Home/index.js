@@ -1,16 +1,7 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { connect } from 'react-redux'
+import Home from './Home'
 
-class Home extends Component {
 
-  render() {
-    return (
-      <div>
-        Home
-        <Link to="course" > To Course</Link>
-      </div>
-    )
-  }
-}
-
-export default Home
+export default connect(state => ({
+  
+}))(Home)
