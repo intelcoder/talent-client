@@ -5,5 +5,6 @@ module.exports = {
   'Redux': CWD + '/app/redux',
   'Root': CWD + '/app/containers/Root',
   'Modules': CWD + '/app/redux/modules',
-  'Containers': CWD + '/app/containers'
+  'Containers': CWD + '/app/containers',
+  'Pages': CWD + '/app/containers/pages'
 }
