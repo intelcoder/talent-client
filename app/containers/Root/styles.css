@@ -1,0 +1,9 @@
+:global {
+  body {
+    margin: 0;
+  }
+
+}
+.mainBody {
+  background: #d8d8d2;
+}

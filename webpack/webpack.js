@@ -34,7 +34,8 @@ const common = {
               'transform-decorators-legacy',
               'transform-runtime',
               'transform-react-constant-elements',
-              'babel-plugin-transform-react-inline-elements'
+              'babel-plugin-transform-react-inline-elements',
+              'transform-class-properties',
             ]
           }
         }],

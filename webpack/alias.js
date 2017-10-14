@@ -6,5 +6,9 @@ module.exports = {
   'Root': CWD + '/app/containers/Root',
   'Modules': CWD + '/app/redux/modules',
   'Containers': CWD + '/app/containers',
-  'Pages': CWD + '/app/containers/pages'
+  'Components': CWD + '/app/components',
+  'Pages': CWD + '/app/containers/pages',
+  'Layout': CWD + '/app/containers/layout',
+  'Global': CWD + '/app/containers/global',
+  'Data': CWD + '/app/data'
 }

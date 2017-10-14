@@ -18,14 +18,13 @@ const middleware = routerMiddleware(history)
 export default function configureStore(history = {}, initialState = {}) {
   const sagaMiddleware = createSagaMiddleware()
   const store = createStore(
-    combineReducers({
-      rootReducer,
-    }),
+    rootReducer,
     initialState,
     compose(
       applyMiddleware(
         sagaMiddleware,
-        //createLogger()
+        middleware,
+        createLogger(),
       )
     )
   ) 

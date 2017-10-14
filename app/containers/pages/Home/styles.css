@@ -1,0 +1,22 @@
+.home {
+  padding: 0.5rem;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 10px 5px;
+}
+
+.previewGrid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+  > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+}

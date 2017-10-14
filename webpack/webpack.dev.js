@@ -6,8 +6,8 @@ module.exports = {
  
   entry: {
     main: [
-      // 'babel-polyfill',
-      // 'react-hot-loader/patch',
+      'babel-polyfill',
+      'react-hot-loader/patch',
       'webpack-hot-middleware/client?path=http://localhost:9966/__webpack_hmr',
       path.resolve(CWD, './app/devMain.js')
     ],

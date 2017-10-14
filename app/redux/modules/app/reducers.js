@@ -1,7 +1,7 @@
 
 
 const initialState = {
-  app: 1
+  app: 1,
 }
 
 const appReducer = (state = initialState, action) => {

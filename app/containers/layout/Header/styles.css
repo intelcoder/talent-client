@@ -1,0 +1,42 @@
+.header {
+  height: 60px;
+  background:rgb(75, 188, 76);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  > div {
+    height: 100%;
+  }
+}
+
+
+.leftMenus {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  > div {
+    color: white;
+    padding: 0 10px;
+  }
+  a {
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.logo {
+  padding: 0 25px;
+}
+
+.menus {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  > div {
+    color: white;
+    padding: 3px;
+    margin: 0 3px;
+    
+  }
+}
