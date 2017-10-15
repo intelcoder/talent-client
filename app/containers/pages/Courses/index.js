@@ -3,7 +3,7 @@ import { MaxWidthContainer, PreviewGrid } from 'Layout'
 import { CoursePreview } from 'Components'
 import css from './styles.css'
 
-class Course extends Component {
+class Courses extends Component {
 
   render() {
     return (
@@ -32,4 +32,4 @@ class Course extends Component {
   }
 }
 
-export default Course
+export default Courses

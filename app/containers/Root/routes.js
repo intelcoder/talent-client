@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Switch, Route } from 'react-router'
 import {
   Home,
-  Course,
+  Courses,
   NotFound,
 } from 'Pages'
 import css from './styles.css'
@@ -13,7 +13,7 @@ class Root extends Component {
       <div className={css.mainBody}>
         <Switch>
           <Route exact path="/" component={Home}/>
-          <Route path="/course" component={Course}/>   
+          <Route path="/course" component={Courses}/>   
           <Route path="*" component={NotFound}/>   
         </Switch>
       </div>
