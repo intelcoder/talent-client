@@ -1,6 +1,10 @@
 :global {
   body {
     margin: 0;
+    overflow-x: hidden;
+  }
+  input {
+    padding: 4px 6px;
   }
 
 }

@@ -3,22 +3,18 @@ import PropTypes from 'prop-types'
 import css from './styles.css'
 
 // This component have max width
-const MaxWidthContainer = ({classes, children}) => {
+const MaxWidthContainer = ({rootClass, children}) => {
+  const classes = `${css.maxWidthContainer} ${rootClass}`
   return(
-    <div className={css.maxWidthContainer}>
-      <div>
-        { children }
-      </div>
+    <div className={classes}>
+      { children }
     </div>
   )
 }
 
 MaxWidthContainer.propTypes = {
   children: PropTypes.element.isRequired,
-  classes: PropTypes.shape({
-    root: PropTypes.string,
-    inner: PropTypes.string,
-  })
+  rootClass: PropTypes.string,
 }
 
 export default MaxWidthContainer

@@ -37,6 +37,8 @@
     color: white;
     padding: 3px;
     margin: 0 3px;
-    
+    &:hover {
+      cursor: pointer;
+    } 
   }
 }
