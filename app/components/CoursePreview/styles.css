@@ -3,6 +3,8 @@
   margin: 4px 0;
   background: grey;
   position: relative;
+  color: black;
+  text-decoration: none;
   &:hover {
     cursor: pointer;
   }

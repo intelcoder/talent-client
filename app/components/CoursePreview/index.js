@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
 import R from 'ramda'
+import { Link } from 'react-router-dom'
 import ResponsiveImage from 'Components/ResponsiveImage'
 import css from './styles.css'
 
 const CoursePreview = ({imageSrc, courseTitle, Rating, category, location}) => {
   return (
-    <div className={css.coursePreview} >
+    <Link to={`/course/${(Math.random() * 10).toFixed(0)}`} className={css.coursePreview} >
       <div className={css.courseImageContainer}>
         <ResponsiveImage 
           imageSrc={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFFNbGQ3A_ji_dxxhDo1ykwLsIr4DPKBWe6xEEULtpUBGewJE8-g'}
           alt="alt"
         />
-        
         {/*
           maybe its not good idea to show price. can reduce click rate
          <div className={css.price}>CAD $50</div> 
@@ -31,7 +31,7 @@ const CoursePreview = ({imageSrc, courseTitle, Rating, category, location}) => {
           North york
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
 
